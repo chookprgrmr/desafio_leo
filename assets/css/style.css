@@ -1,0 +1,34 @@
+.separator-vert{
+    border-right: 1px solid #b7b7b7;
+}
+
+.search-input{
+    font-size: 15px;
+    padding: 16px;
+    background: #efefef;
+}
+
+
+span, p, strong, h1, h2, h3{
+    color:#b7b7b7;
+}
+
+.carousel-alter{
+    bottom: 14.25rem!important;
+    left: 9%!important; 
+    width: 30%;
+    background: #000;
+    opacity: 0.4;
+    padding: 10px 25px; 
+    text-align: left;
+}
+
+.carousel-alter p{
+    text-align: left;
+}
+
+
+.btn-banner{
+    border: 3px solid #fff;
+    color: #fff;
+}
