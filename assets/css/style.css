@@ -17,24 +17,36 @@ span, p, strong, h1, h2, h3{
     color:#b7b7b7;
 }
 
+body{
+    background-color: #f1f1f1;
+}
+
 .carousel-alter{
     bottom: 14.25rem!important;
-    left: 9%!important; 
+    left: 14%!important; 
     width: 30%;
-    background: #000;
-    opacity: 0.4;
-    padding: 10px 25px; 
+    padding: 10px 45px; 
     text-align: left;
 }
 
-.carousel-alter p{
+.carousel-alter p, .carousel-alter h1{
     text-align: left;
+    color: #fff;
 }
 
 
 .btn-banner{
     border: 3px solid #fff;
     color: #fff;
+    padding: 10px 68px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.btn-banner:hover{
+    background-color: #fff;
+    color: #b7b7b7;
+    
 }
 
 .carousel-indicators{
@@ -55,8 +67,25 @@ span, p, strong, h1, h2, h3{
     background-color: #404040;
 }
 
-.card, .add-folder{
+.banner-text{
+    bottom: 14.25rem!important;
+    left: 14%!important;
+    width: 30%;
+    background: #000;
+    opacity: 0.4;
+    padding: 10px 25px;
+    text-align: left;
+    position: absolute;
+    height: 263px;
+}
+
+.card{
     max-height: 375px;
+}
+
+.add-folder{
+    max-width:288px;
+    max-height: 328px;
 }
 
 .card img{
@@ -66,7 +95,7 @@ span, p, strong, h1, h2, h3{
 .add-folder{
     border: 3px dashed #b7b7b7;
     height: 100%;
-    padding: 116px 70px;
+    padding: 76px 70px;
 }
 
 .add-folder img{
@@ -77,3 +106,26 @@ span, p, strong, h1, h2, h3{
 .add-folder strong{
     text-align: center;
 }
+
+.sociais a{
+    display: inline-flex!important
+}
+
+h4{
+    font-size: 19px;
+}
+
+.footer, .bg-header{
+    background-color: #fff;
+}
+
+.pos-footer{
+    background-color: #b7b7b7;
+    padding: 10px;
+}
+
+
+footer .container-fluid span{
+    color:#6c6c6c!important;
+}
+

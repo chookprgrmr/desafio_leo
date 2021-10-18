@@ -34,42 +34,43 @@
             </div>
         </div> -->
     <!--preloader_end-->
-
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-            <div class="col-6">
-                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src="images/logo-header.png" alt="logo">
-                </a>
-            </div>
-            
-            <div class="col-6">
-                <div class="row justify-content-end">
-                    <div class="col-6 separator-vert">
-                        <input class="form-control form-control-lg rounded-pill search-input" type="text" placeholder="Pesquisar Cursos..." aria-label=".form-control-lg example">
-                    </div>
-                    
-                    <div class="col-4">
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="images/perfil-foto.jpg" class="rounded-circle" alt="..." width="50" height="50">
-                            </div>
-
-                            <div class="col-6 px-0">
-                                <div>
-                                    <span>Seja Bem-vindo</span>
-                                    <span class="d-block"><strong>John Doe</strong></span>
-                                </div>
-                            </div>
+    <div class="container-fluid bg-header">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-between py-3 border-bottom">
+                <div class="col-6">
+                    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                        <img src="images/logo-header.png" alt="logo">
+                    </a>
+                </div>
+                
+                <div class="col-6">
+                    <div class="row justify-content-end">
+                        <div class="col-6 separator-vert">
+                            <input class="form-control form-control-lg rounded-pill search-input" type="text" placeholder="Pesquisar Cursos..." aria-label=".form-control-lg example">
                         </div>
                         
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="images/perfil-foto.jpg" class="rounded-circle" alt="..." width="50" height="50">
+                                </div>
+
+                                <div class="col-6 px-0">
+                                    <div>
+                                        <span>Seja Bem-vindo</span>
+                                        <span class="d-block"><strong>John Doe</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </div>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators rounded-pill">
                 <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -78,7 +79,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/banner1.jpg" class="d-block w-100" alt="...">
-                    
+                    <div class="banner-text"></div>
                     <div class="carousel-caption d-none d-md-block carousel-alter">
                         <h1>LOREM IMPSUM</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur commodo ex, ut hendrerit est varius non. 
@@ -120,12 +121,12 @@
         <?php for($i=0; $i<= 6; $i++){?>
             
                 <div class="col-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card rounded" style="width: 18rem;">
                         <img src="images/cursos.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Consectetur Adipiscing</h5>
-                            <p class="card-text">Ut mauris neque, facilisis bibendum diam vitae, eleifend egestas magna. Vivamus ligula nisi, interdum in lacus eu, vehicula aliquam nisl.</p>
-                            <a href="#" class="btn btn-success d-block rounded-pill">Ver Curso</a>
+                            <p class="card-text">Ut mauris neque, facilisis bibendum diam vitae, eleifend egestas magna.</p>
+                            <a href="#" class="btn btn-success d-block rounded-pill">VER CURSO</a>
                         </div>
                     </div>
                 </div>
@@ -147,3 +148,50 @@
             </div>
         </div>
     </div>
+
+    <footer class="d-flex flex-wrap justify-content-between py-3">
+        <div class="container-fluid footer">
+            <div class="container justify-content-between">
+
+                <div class="row">
+
+                    <div class="col-6">
+                        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none mt-5 mb-5">
+                            <img src="images/logo-header.png" alt="logo">
+                        </a>
+                        <span class="d-block mt-2 mb-3">Ut mauris neque, facilisis bibendum diam vitae, <br>eleifend egestas magna.</span>
+                    </div>
+
+                    <div class="col-6 mt-5 mb-5">
+                        <div class="row justify-content-end">
+                            <div class="col-5">
+                            <h4>//CONTATO</h4>
+                            <strong>(21)9865-3434</strong>
+                            <strong>contato@leolearning.com</strong>
+                            </div>
+
+                            <div class="col-4 sociais">
+                                <h4>//REDES SOCIAIS</h4>
+                                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                                    <img src="images/twitter.png" alt="twitter" width="40">
+                                </a>
+                                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                                    <img src="images/youtube.png" alt="youtube" width="40">
+                                </a>
+                                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                                    <img src="images/pinterest.png" alt="pinterest" width="40">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pos-footer">
+            <div class="bottom-footer container">
+                <span>Copyright <?php echo date('Y');?>- All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
