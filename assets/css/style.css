@@ -129,3 +129,48 @@ footer .container-fluid span{
     color:#6c6c6c!important;
 }
 
+
+#modalleo h2{
+    color: #484747;
+    text-align: center;
+    font-size: 40px;
+}
+
+#modalleo p{
+    color:#b7b7b7;
+    text-align: center;
+    font-size: 20px;
+}
+
+#modalleo .modal-body a{
+    background-color:#1da2da;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 39px;
+}
+
+#modalleo .modal-body{
+    padding-bottom:50px;
+}
+
+
+#modalleo button{
+    top: -12px;
+    position: absolute;
+    right: -9px;
+    border-radius: 33px 33px;
+    width: 50px;
+    height: 50px;
+    color: red;
+    border: none;
+}
+
+#modalleo button span{
+    color: red;
+    font-size: 40px;
+    line-height: 28px;
+}

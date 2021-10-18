@@ -195,3 +195,38 @@
             </div>
         </div>
     </footer>
+
+
+
+    <div class="modal fade" id="modalleo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" style="max-width: 1120px!important;">
+        <div class="modal-content">
+          <div class="modal-header p-0">
+              <img src="images/banner2.jpg" alt="" width="1120px">
+           
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+             <h2 class="modal-title" id="exampleModalLabel">consectetur adipiscing</h2>
+             <p>Nulla consectetur commodo ex, ut hendrerit est varius non.<br> Aenean sagittis ex vel</p>
+             <a href="" class="rounded-pill btn">INSCREVA-SE</a>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById("modalleo"), {});
+            document.onreadystatechange = function () {
+            myModal.show();
+            };
+    </script>
