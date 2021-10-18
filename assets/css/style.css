@@ -2,6 +2,10 @@
     border-right: 1px solid #b7b7b7;
 }
 
+.separator-hor{
+    border-bottom: 1px solid #b7b7b7;
+}
+
 .search-input{
     font-size: 15px;
     padding: 16px;
@@ -31,4 +35,45 @@ span, p, strong, h1, h2, h3{
 .btn-banner{
     border: 3px solid #fff;
     color: #fff;
+}
+
+.carousel-indicators{
+    background-color: #fff;
+    width: 9%;
+    margin: 0 auto;
+    bottom: -12px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    background-color: #9f9f9f;
+}
+
+.carousel-indicators .active{
+    background-color: #404040;
+}
+
+.card, .add-folder{
+    max-height: 375px;
+}
+
+.card img{
+    height: 160px;
+}
+
+.add-folder{
+    border: 3px dashed #b7b7b7;
+    height: 100%;
+    padding: 116px 70px;
+}
+
+.add-folder img{
+    margin: 0 auto;
+    display: block;
+}
+
+.add-folder strong{
+    text-align: center;
 }

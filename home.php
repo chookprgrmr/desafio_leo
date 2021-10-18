@@ -71,9 +71,9 @@
     
     <div class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <div class="carousel-indicators rounded-pill">
+                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -91,6 +91,13 @@
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block carousel-alter">
+                        <h1>LOREM IMPSUM</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur commodo ex, ut hendrerit est varius non. 
+                            Aenean sagittis ex vel felis lacinia, vitae sagittis justo convallis. Suspendisse potenti.
+                        </p>
+                        <a href="" class="btn btn-white-outline btn-banner rounded-pill">Ver Cursos</a>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -101,5 +108,42 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+    </div>
+
+
+    <div class="container my-5">
+        <div class="row separator-hor">
+            <h2><strong>MEUS CURSOS</strong></h2>
+        </div>
+        <div class="row my-5">
+        <?php for($i=0; $i<= 6; $i++){?>
+            
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/cursos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Consectetur Adipiscing</h5>
+                            <p class="card-text">Ut mauris neque, facilisis bibendum diam vitae, eleifend egestas magna. Vivamus ligula nisi, interdum in lacus eu, vehicula aliquam nisl.</p>
+                            <a href="#" class="btn btn-success d-block rounded-pill">Ver Curso</a>
+                        </div>
+                    </div>
+                </div>
+                <?php if($i == 3){?>
+                    </div>
+                    <div class="row">
+                <?php }; ?>    
+        <?php }?>
+
+
+            <div class="col-3">
+                <div class="add-folder">
+                    <div>
+                        <img src="images/add-folder.png" alt="">
+                        <strong class="d-block align-center">ADICIONAR <br>CURSO</strong>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </div>
